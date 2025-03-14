@@ -1,0 +1,208 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Headeer*/
+.container{
+
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+
+}
+.header {
+    
+    background-color: #F1F1F1;
+    padding-top: 46px;
+}
+
+.header-nav{
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-end;
+ margin-bottom: 76px;
+
+}
+.logo{
+    position: relative;
+    padding: 0 12px 3px 0 ;
+    font-weight: 700;
+    font-size: 32px;
+    color: #000;
+    line-height: 1;
+}
+.logo::after{
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #FDA300;
+    border-radius: 50% ;
+}
+
+.nav-list {
+ display: flex;
+ column-gap: 50px;
+ font-weight: 500;
+ font-size: 14px;
+
+}
+
+.nav-link {
+ color: #000;
+
+}
+
+.nav-link.active{
+
+    color:#606060;
+}
+/*Header content*/
+.header-content{
+    margin-top: 124px;
+    max-width: 580px;
+}
+.header-row{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+.header-heading{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.peul{
+    line-height: 2;
+   
+}
+
+/*SERVICES*/
+
+.services{
+padding: 90px 0;
+
+}
+.services-row{
+display: flex;
+column-gap: 30px;
+text-align: center;
+}
+.service-card-img{
+ margin-bottom: 30px;
+ 
+}
+
+.service-card-title{
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 24px;
+  text-transform: uppercase;
+
+}
+
+.services-card p {
+
+    font-size: 14px;
+    line-height: 2;
+}
+
+/*Portfolio*/
+
+.portfolio {
+    padding: 90px 0;
+    background-color: #f1f1f1;
+}
+
+.portfolio-title {
+    margin-bottom: 70px;
+    text-align: center;
+
+
+}
+.title-1{
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.project {
+    text-align: center;
+}
+.project-img {
+    margin-bottom: 40px;
+}
+.project-title {
+    font-size: 18px ;
+}
+
+.project-title a {
+    color: #000;
+    text-decoration: underline;
+}
+.project + .project {
+    margin-top: 90px;
+}
+
+/*FOOTER*/
+.contacts {
+padding: 90px 0;
+text-align: center;
+}
+.contacts-title {
+    margin-bottom: 40px;
+}
+
+.contacts-content {
+    margin-bottom: 40px;
+    font-size: 18px;
+
+}
+.contacts-content p + p{
+    margin-top: 1em;
+}
+
+.contacts-button {
+ margin-bottom: 80px;
+}
+.btn {
+    display: inline-block;
+    padding: 7px 22px;
+    background-color: #070707;
+    border-radius: 30px;
+    font-size: 18px;
+    color: white;
+    transition: 0.2s ease-in;
+}
+
+.contacts_social {
+    margin: 0 auto 40px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 345px;
+    column-gap: 60px;
+
+
+}
+.btn:hover, .btn:focus{
+    background-color: #353333;
+
+}
+.btn:active {
+
+    position: relative;
+    top: 1;
+    background-color: #0000;
+
+}
+
+.contacts-footer {
+color: #828282;
+}
+/*FINISH*/
